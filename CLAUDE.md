@@ -24,4 +24,5 @@ COURSE=courses/dgti COOKIES_BROWSER= uv run python src/build/fetch_meta.py
 
 ## 狀態(2026-08-10 完成)
 - **verify 20/20、audit 0 錯誤、89 tests**;零跨章重複;CAP 最高佔比 15%
-- (部署後補:上線網址與 GitHub repo)
+- **已上線 https://dgti-course.pages.dev**(Pages 專案 dgti-course)
+- **GitHub**:kansasray/dgti-course(public,Discussions 已開,giscus 已填待裝 App)
