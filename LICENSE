@@ -1,6 +1,7 @@
 MIT License
 
-Copyright (c) 2026 gym-course contributors
+Copyright (c) 2026 gym-course contributors（curate-course 框架）
+Copyright (c) 2026 kansasray（courses/dgti/ 的課程內容與繁中文案）
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,4 +34,4 @@ SOFTWARE.
 - **PubMed 與 OpenEvidence 引用的文獻**，著作權屬各出版者；本專案僅存書目
   資訊與連結。
 
-課程內容為衛教與運動指引，不構成醫療診斷或治療建議。
+courses/dgti/ 的課程內容為空地協同方法的教育參考,不能取代實地演練與正式搜救訓練。實際搜救行動請在所屬單位的指揮體系與現行程序下進行。

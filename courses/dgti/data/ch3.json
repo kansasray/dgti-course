@@ -1,0 +1,98 @@
+{
+  "chapter": "CH3",
+  "units": [
+    {
+      "id": "ch3-u1",
+      "name": "空地協同的協定",
+      "type": "coordination",
+      "assessment": "接到一個任務後,自己寫下四件事:今天空地兩隊要用哪一顆無線電頻道聯絡、無人機找到疑似目標後座標要怎麼唸給地面隊、如果無人機要飛到地面隊視距以外,飛手手上有沒有拿到CAP或民航主管機關認可的視距外豁免(不是自己排一條觀察員接力鏈就當作合法)、機組多久沒回報基地就要開始找人。四件事都答得出來,協定才算真的訂清楚;答不出來的那一項,要回到任務簡報階段補上,不要等到飛起來才現場喊。",
+      "lesson": {
+        "title": "Task O-5001: Demonstrate Air & Ground Team Coordination",
+        "channel": "Arizona Wing Civil Air Patrol",
+        "url": "https://www.youtube.com/watch?v=2nSsdngtOhE",
+        "duration": "16:59",
+        "why": "Arizona Wing Civil Air Patrol於2020年6月26日上架,是CAP無人機任務手冊(UAS MP Task Guide)裡O-5001任務的完整示範,對應的認證項目就是「示範空地隊協同」。0:34起說明空地兩隊一律優先用無線電通訊,第一技術員拿主頻道,飛行員自己也留一支備援無線電;2:39–3:24示範兩種座標交接方式:無人機App叫出GPS座標唸給地面隊,或地面隊先回報座標讓無人機飛過去查證。3:45–4:10講到視距內飛行(VLOS)是CAP與FAA的硬性要求,片中示範用技術員與觀察員排成一條接力鏈延伸監看範圍,但頻道說明欄的更正特別寫明:這條接力鏈沒有拿到VLOS豁免就不合法,是協同時最容易犯、卻自以為在幫忙的錯。7:50–9:17講任務關鍵頻道跟中繼站要事先跟支援單位對好,9:24分鐘提到機組兩小時沒回報基地就要展開搜尋,12:01–12:39示範怎麼約集合點(例如某路口),12:43起講無線電失聯時的處理程序。921次觀看,是CAP各聯隊裡少數把O-5001任務完整拍成教學片的版本(密西根聯隊也有一版,但長度48分超出本課主課時長門檻,故不採用)。"
+      },
+      "drills": [
+        {
+          "name": "地面隊模擬救援示範",
+          "en": "Civil Air Patrol ground team demo (mock rescue)",
+          "kind": "story",
+          "target": "CAP開放日公開示範的地面隊行動,情境是飛機墜毀、地面隊進場救出昏迷倖存者",
+          "dose": "全片4分49秒看完,YouTube沒有提供字幕或自動字幕,無法逐句核對片中對話的時間碼,只能依整支片的畫面跟頻道說明文字判斷內容。看的時候留意地面隊到達現場後怎麼分工(誰固定傷者、誰負責對外聯繫回報),跟主課教的座標接力與角色分工做對照。",
+          "title": "Civil Air Patrol Ground Team Demo",
+          "channel": "CivilAirPatrolMain",
+          "url": "https://www.youtube.com/watch?v=5gzkWbMmZ2Y",
+          "duration": "4:49",
+          "why": "CivilAirPatrolMain頻道於2011年3月30日上架,由亞利桑那州TX179 Thunderbird Composite Squadron在CAP開放日公開示範地面隊行動,情境是一架飛機墜毀、地面隊進場把一名昏迷倖存者救出。頻道說明只有一段文字介紹情境,沒有字幕可查,只能依整支片內容判斷:這是主課O-5001任務示範以外,少數把地面隊行動實際拍下來公開的CAP官方頻道影片,可以對照主課教的角色分工在真實演練現場長什麼樣子。3136次觀看,是本單元觀看數最高的CAP頻道影片。"
+        },
+        {
+          "name": "CRM錯誤鏈與溝通障礙",
+          "en": "Crew Resource Management (CRM) and the error chain",
+          "kind": "lecture",
+          "target": "用CRM(機組資源管理)的錯誤鏈跟溝通障礙分析,解釋協同任務為什麼會失敗",
+          "dose": "看Failures(3:03)到The Error Chain(4:10–6:32)這段,記下影片講的錯誤鏈概念:一個小失誤沒被抓到,會被下一個環節放大成大問題;Barriers to Communication(12:10–13:10)列出的溝通障礙清單,對照自己隊上最常出現的是哪一種;Crew Coordination(18:20–19:28)跟CRM Checklist(19:28–20:50)是收尾的檢查表,可以直接拿來當下次演練前的準備清單。",
+          "title": "11 - Crew Resource Management",
+          "channel": "Hawaii Wing Civil Air Patrol",
+          "url": "https://www.youtube.com/watch?v=Lfp8tW85hP8",
+          "duration": "22:41",
+          "why": "Hawaii Wing Civil Air Patrol的Scanner Training系列第11課,2020年7月10日上架,教材由California Wing CAP提供,對應認證項目P-2028「討論機組資源管理」。影片自帶YouTube章節,'Failures'(3:03)跟'The Error Chain'(4:10–6:32)直接講協同失敗是怎麼一步步累積出來的,'Barriers to Communication'(12:10–13:10)列出常見的溝通障礙,'Crew Coordination'(18:20–19:28)講怎麼分配任務跟互相確認。這支片講的是機組內部(飛行員、觀察員之間)的協同,不是空地兩隊之間的協同,收進這裡是因為CRM教的錯誤鏈跟溝通障礙分析,同樣可以套用來解釋空地協同為什麼會失敗。1404次觀看。"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u2",
+      "name": "通訊與指揮鏈",
+      "type": "coordination",
+      "assessment": "拿一次任務的通聯記錄自己檢查五件事:指揮站設在哪裡、有沒有先把位置跟現況公告出去讓後續進場的人跟派遣中心都知道、指揮站旁邊有沒有劃出一個只有支援小組能進的範圍、指揮官除了看畫面有沒有留意無線電裡的異常聲音、通聯用詞是不是照標準格式喊(方位、鐘面、清場確認),不是自己隨口講方向。五項都對得起來才算指揮鏈真的接上了,對不起來的那一項就是下次演練要練的重點。",
+      "lesson": {
+        "title": "Bringing calm to chaos: Command post management for new officers - Part 1",
+        "channel": "FireRescue1",
+        "url": "https://www.youtube.com/watch?v=0St5lMhok6w",
+        "duration": "6:21",
+        "why": "FireRescue1頻道2020年7月15日上架,由消防局長Marc Bashoor講解指揮站(command post)管理的LABOR口訣,是這系列四支影片的第一支。0:00–1:15先講清楚:再多肩章或制服都不會自動讓人變成好的事故指揮官,重點是把訓練跟經驗收斂成一套可重複的流程。2:13起逐一講解LABOR五個字母:L是Location(2:13,指揮站要選在指揮官看得到現場、後續人員也看得到指揮站的位置,方便回報領取任務),A是Announce(2:35,把指揮站位置、名稱跟現況簡報出去,讓後續進場的人跟派遣中心都清楚狀況),B是Box(3:00,劃出一個只有指揮支援小組能進入的十呎見方範圍,其他人有事要透過無線電或另找人聯繫,不能直接闖進來打斷指揮官),O是Observe(3:50,不只是看著現場,還要留意求救訊號、結構倒塌聲響、PASS警報器等異常聲音),R是Relax(4:19,提醒指揮官這不是自己的個人緊急事故,不要把混亂帶進混亂裡)。32558次觀看,是本章觀看數最高的一支。"
+      },
+      "drills": [
+        {
+          "name": "跟直升機通話的定位語言",
+          "en": "Communicating with Helicopters (NWCG S-271)",
+          "kind": "walkthrough",
+          "target": "地面人員怎麼用無線電幫空中駕駛定位目標、標記障礙物、確認落區清空",
+          "dose": "0:45起教先講general location(用標準用詞定位,不要只講方位角),1:10教先講清楚有沒有電線塔、天線這類飛行員從空中看不到的障礙物,1:33–2:12教finalize location時用飛行員視角的鐘面方位(機頭12點、機尾6點),2:12起教垂直位置(比飛機高還是低),3:16起教describe target,4:42起教確認落區清空後才通知飛行員可以動作,5:33教事後要老實回報偏差方向讓飛行員校正下一次。",
+          "title": "Communicating with Helicopters",
+          "channel": "NWCG - National Wildfire Coordinating Group",
+          "url": "https://www.youtube.com/watch?v=W56SsXt9mn4",
+          "duration": "6:51",
+          "why": "美國國家野火協調小組(NWCG)頻道2026年1月5日上架,是Helicopter Crewmember S-271課程教材的一部分,教地面人員怎麼用無線電跟直升機駕駛員通話。片中示範飛行員實際回話「方向真的很難講,我探頭出去轉來轉去找你,根本沒空管哪邊是南哪邊是西」(3:04起),直接說明為什麼要用鐘面方位跟地標而不是東南西北。整段內容雖然是消防吊掛滅火場景,但通話流程(定位、標記障礙、鐘面方位、清場確認、事後回報)可以直接套進無人機跟地面隊之間的空中回報,對應這一單元「無線電語音」這個銜接點。4505次觀看。"
+        }
+      ]
+    },
+    {
+      "id": "ch3-u3",
+      "name": "整合任務走一次",
+      "type": "coordination",
+      "assessment": "看完RedCap模擬演練後自己整理一次任務時間軸:值班電話通知的內容、任務簡報唸出的關鍵資訊(機型、人數、最後已知位置、天氣)、飛行簡報劃定的搜索方格、地空之間交換座標的頻率跟時機、地面隊回報「目標已達成」用的通報代號。這支片沒拍到歸詢(debrief)畫面,接著自己寫一份debrief該問的三個問題:哪個環節的通聯最順、哪個環節重複確認次數最多、下次演練要先解決哪一件事。三點都寫得出來,才算真的把簡報到歸詢這條任務流程串起來,不是只看了一次熱鬧的搜救畫面。",
+      "lesson": {
+        "title": "RedCap Simulation Exercise Coltsfoot Mountain",
+        "channel": "SplonedogStudios",
+        "url": "https://www.youtube.com/watch?v=9fE2aecdCeE",
+        "duration": "13:14",
+        "why": "SplonedogStudios頻道2016年8月17日上架,片名直接寫「RedCap Simulation Exercise」,說明欄寫明186th Civil Air Patrol地面隊在康乃狄克州西北部Coltsfoot Mountain進行的Redcap模擬演練。Redcap是CAP地面隊會遇到的最高等級警報,代表一架飛機失聯疑似墜毀,要求空中跟地面同時立即出動。全片就是一次完整的模擬任務:0:00–1:17是值班電話通知「有一個活躍的Redcap,五分鐘內準備好」;1:57–3:34是任務簡報,唸出失聯飛機的細節(白藍雙色Piper Cherokee,機尾號N6161W,單引擎兩人座,飛行員James Miller、乘客Sarah Smith,ELT訊號正在響,波士頓航管最後雷達回波在康州西北角,天氣有強雷雨帶),下令空勤組跟地面組在天亮後立即出動調查;3:30–4:08是飛行簡報,講清楚要在哪個方格網(New York sectional 271區D方格)飛搜索航線找信標;5:55–6:51是地空之間交換座標的無線電通聯;7:56–8:44是地面隊實際爬山前往三角定位出的訊號熱點,一路討論有沒有爬錯半山腰;9:30左右在測DF(方向定位)訊號強度;12:03–12:16是地面隊一號跟二號互相確認「Tango已達成」(目標已抵達的通報代號)。全片13分14秒沒有拍到最後的歸詢(debrief)畫面,但簡報到接觸目標這段完整,是全網少見把CAP整套任務流程從頭錄到快結束的影片。1283次觀看。"
+      },
+      "drills": [
+        {
+          "name": "台灣山難搜救的無人機空拍支援紀實",
+          "en": "Drone support during a real mountain SAR mission (Taiwan)",
+          "kind": "story",
+          "target": "台中消防在花蓮合歡山東峰山難搜救裡,無人機空拍如何實際支援地面搜救隊的紀實",
+          "dose": "全片4分15秒,手機側錄拍攝,沒有旁白或對話字幕可查,只能依畫面跟頻道說明判斷內容。看的時候留意畫面裡無人機起降的地點跟地面搜救隊活動範圍的相對位置,以及空拍畫面回傳後地面隊接下來的動作,跟主課教的座標交接、地空之間資訊怎麼流動做對照。",
+          "title": "1060319支援花蓮合歡山東峰山難空拍 側拍紀實",
+          "channel": "張喬志",
+          "url": "https://www.youtube.com/watch?v=G2ZmDxW7pog",
+          "duration": "4:15",
+          "why": "台中消防張喬志頻道2017年5月1日上架,說明欄寫「很榮幸參與這次支援花蓮縣山搜空拍勤務,內容影片皆是用手機全程拍攝側錄,紀錄當天搜救點滴」,是台灣消防體系無人機手在真實山難搜救任務裡側拍的第一手紀錄,不是CAP那種對外公開的教學片。YouTube沒有提供這支片的字幕或自動字幕,查證時無法逐句核對畫面裡有沒有對話或無線電通聯,只能依標題跟說明欄確認這是一次真實任務(合歡山東峰),不是演練或示範。收進這裡是因為張喬志頻道搜尋不到專門教「空地協同」流程的影片,他大部分無人機影片講的是空拍搜索技巧(屬於CH2的主題),另外查過的「捷運聯合搶救演練」一支雖然畫面像多單位協同,但字幕抓下來只有背景音樂跟掌聲,沒有任何講解內容,不適合用來教流程;這支片是張喬志頻道裡少數能看到無人機支援地面隊實際山域搜救現場的內容,補上台灣搜救實務的第一手視角。1434次觀看。"
+        }
+      ]
+    }
+  ]
+}

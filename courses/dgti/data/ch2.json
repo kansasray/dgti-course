@@ -1,0 +1,110 @@
+{
+  "chapter": "CH2",
+  "units": [
+    {
+      "id": "ch2-u1",
+      "name": "搜索模式",
+      "type": "operation",
+      "assessment": "看完這個單元要能做到三件事：看到搜索範圍的形狀與目標最後已知位置的關係，能自己選出對應的搜索模式，位置精確且範圍小的用expanding square，沿海岸線或道路這類狹長地形的用creeping line或contour search，範圍大且要先粗略掃過一遍確認有無明顯目標的用sector search；知道無人機執行這些模式時航線是先用app規劃好waypoint再自動飛，操作員不是手動一段一段控制；規劃航線寬度與重疊率時，寬度愈窄重疊愈高，涵蓋愈精細但耗電愈多，出發前要先算清楚電量夠不夠飛完整趟。",
+      "lesson": {
+        "title": "Search Techniques and Operations - Planning And Conducting Search",
+        "channel": "Marine Online",
+        "url": "https://www.youtube.com/watch?v=r8kdFA1zDMk",
+        "duration": "16:02",
+        "why": "Marine Online頻道，2016年12月16日上架，片長16分2秒，觀看數19,385。英文片，無中文字幕，以下為繁中導讀。YouTube自動產生的章節大致對應：2:43講怎麼用平行掃描（parallel sweep search）協調多個搜索單位同時作業，4:16講expanding square搜索範圍要注意的地方，5:25講同一片區域拆給不同單位各自做獨立的sector search，9:06講怎麼依現場狀況選用適合的搜索模式，11:00講執行visual ground search要留意什麼，15:22講找到目標後第一件事是回報搜救任務協調官（SMC）。內容是海事搜救教材，模式概念與無人機空中搜索共用，只是把船艦航機換成無人機執行。"
+      },
+      "drills": [
+        {
+          "name": "自動生成expanding square航線",
+          "en": "UgCS Automatic Expanding Square tool for SAR",
+          "kind": "walkthrough",
+          "target": "怎麼讓軟體自動算出expanding square搜索範圍的航線，不用自己一段一段規劃",
+          "dose": "看完後想一下，如果換成自己手上的任務規劃軟體，有沒有類似的自動生成搜索航線功能，沒有的話要怎麼手動湊出同樣的覆蓋效果",
+          "title": "How To - UgCS Automatic Expanding square tool for SAR with drones",
+          "channel": "SPH Engineering - Control Your Drones!",
+          "url": "https://www.youtube.com/watch?v=d-69JZISqA4",
+          "duration": "1:00",
+          "why": "SPH Engineering頻道，2019年12月5日上架，片長1分，觀看數3,315。英文片，無中文字幕，以下為繁中導讀，內容摘自官方說明欄。SPH Engineering是UgCS這套無人機任務規劃軟體的開發商，這支片示範UgCS裡的Expanding square工具，設定好搜索範圍之後，工具自動生成一個矩形螺旋狀的航線，讓相機覆蓋整片範圍不留死角，規劃好就能切到自動模式讓無人機自己飛完。片子本身是螢幕錄影示範，沒有旁白也抓不到字幕，以上說明來自影片說明欄的文字。"
+        },
+        {
+          "name": "認識contour search",
+          "en": "Contour Search explained",
+          "kind": "lecture",
+          "target": "contour search（等高搜索）是什麼、跟expanding square與sector search差在哪、什麼情境下比較適合用",
+          "dose": "看完後把contour search、expanding square、sector search三種模式的適用情境寫成一張對照表，確認自己分得清楚",
+          "title": "Contour Search - Search and Rescue",
+          "channel": "Steering Mariners",
+          "url": "https://www.youtube.com/watch?v=lEW9RUJOHns",
+          "duration": "1:41",
+          "why": "Steering Mariners頻道，2019年8月6日上架，片長1分41秒，觀看數2,514。英文片，無中文字幕，以下為繁中導讀。頻道主要做海事證照口試與筆試的教材，這支片用動畫加旁白講contour search是什麼、什麼時候用、跟其他搜索模式差在哪，適合搭配主課一起看，補上主課沒有單獨示範的一種搜索模式。全片沒有YouTube章節標記，內容是單一主題的簡短講解，不需要抓時間點。"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u2",
+      "name": "熱像與夜間搜索",
+      "type": "operation",
+      "assessment": "看完這個單元要能講清楚三件事：熱像鏡頭在白天判讀會遇到的限制，例如地面被太陽曬熱後溫差變小、植被茂密的地方會擋住底下的熱訊號，所以搜索時雲台角度要斜一點才看得到樹冠下方，而且同一塊地要從不同方向飛過去補齊視野死角；夜間或清晨搜索時人體與環境溫差通常比白天明顯，但仍要先在鏡頭設定裡把溫度範圍調到符合搜索目標（例如人體或動物體溫）的區間，不然畫面上一堆不相關的熱源會干擾判讀；看到熱點不能直接當作找到人，要用縮放鏡頭或可見光鏡頭再確認一次，確認不了就記下座標留給地面隊或下一輪飛行複查。",
+      "lesson": {
+        "title": "Search and Rescue Workflow - DJI Mavic 3T Thermal and CalTopo App",
+        "channel": "Savage Tactical Recon - Thermal Drone Services",
+        "url": "https://www.youtube.com/watch?v=odT48Hi67YI",
+        "duration": "19:06",
+        "why": "Savage Tactical Recon頻道，2023年6月13日上架，片長19分6秒，觀看數13,994。英文片，無中文字幕，以下為繁中導讀。頻道主用DJI Mavic 3T實地示範一套完整的搜索工作流程，YouTube有官方章節標記：1:41起講自動測繪任務（Autonomous Map Mission）怎麼規劃讓無人機自動飛完整片範圍，6:42起講手動飛行時怎麼配合地圖任務，8:19起講用Pinpoint功能在畫面上標記可疑位置並留下飛行路徑紀錄，13:20起講怎麼把RC Pro上的紀錄匯入CalTopo這套地圖軟體，15:45起講怎麼在RC Pro上安裝CalTopo App。內容偏工作流程整理，沒有另外拍一支專講夜間搜索的片，夜間搜索的環境優勢與注意事項留給下一支延伸影片的鏡頭設定內容一起說。"
+      },
+      "drills": [
+        {
+          "name": "熱像鏡頭的溫度範圍與雲台角度設定",
+          "en": "DJI Mavic 3T thermal camera settings for SAR",
+          "kind": "walkthrough",
+          "target": "怎麼把熱像溫度偵測範圍收窄到搜索目標的體溫區間，以及雲台角度為什麼不能一直打90度朝下",
+          "dose": "看完後對照自己手上的熱像機型，找出溫度範圍設定在哪裡，並想清楚在自己常飛的地形要用多大的雲台角度、要不要往返兩個方向補飛",
+          "title": "DJI Mavic 3T Thermal Camera Settings for SAR(Search and Rescue) and Wildlife",
+          "channel": "Savage Tactical Recon - Thermal Drone Services",
+          "url": "https://www.youtube.com/watch?v=zVA8VKO8EMA",
+          "duration": "11:53",
+          "why": "Savage Tactical Recon頻道，2023年6月13日上架，片長11分53秒，觀看數73,295。英文片，無中文字幕，以下為繁中導讀，依英文字幕整理。與主課那支同一天上架，算是姊妹片，內容是DJI Mavic 3T熱像鏡頭的實機設定教學，全片沒有YouTube章節標記。片中示範把溫度偵測範圍從系統預設的寬範圍收窄到符合搜索目標（例如鹿或人的體溫區間），避免畫面上一堆不相關的熱源干擾判讀；也示範飛行時雲台角度不要打死90度朝下，斜個15度左右比較容易看到樹冠底下，但要記得往返兩個方向飛過同一片區域，不然斜角度會有一側被樹葉擋住看不到。內容是實機飛行示範，拍攝對象是野外的鹿，沒有涉及真實救援案例畫面。"
+        }
+      ]
+    },
+    {
+      "id": "ch2-u3",
+      "name": "目標辨識與座標回報",
+      "type": "operation",
+      "assessment": "看完這個單元要能做到三件事：從FPV或正射影像裡辨識可疑線索，例如反光或顏色不自然的物體、燒焦痕跡、被壓斷的樹枝、新翻動的土、雪地或水面上的痕跡，並知道這些線索哪些常常是假警報；讀取座標時要唸出完整的度分秒或十進位度數，連同南北東西方向一起說，語速放慢、字一個一個唸清楚，而且平時要先練習過，不要等到真的找到目標才臨場現想怎麼講；拍攝或截取證據畫面時要注意主體有沒有置中入框、有沒有靠鏡頭縮放拉近到看得清楚細節，而不是隨手截一張模糊的畫面就回報。",
+      "lesson": {
+        "title": "Task P-5110: Identify Visual Clues and Wreckage Patterns from FPV and Orthomosaic Imagery",
+        "channel": "Arizona Wing Civil Air Patrol",
+        "url": "https://www.youtube.com/watch?v=nsjY6UWgMyM",
+        "duration": "15:49",
+        "why": "Arizona Wing Civil Air Patrol頻道，2020年7月30日上架，片長15分49秒，觀看數655。英文片，無中文字幕，以下為繁中導讀。這是美國民航巡邏隊（CAP）任務編號P-5110的官方任務教材，教怎麼從FPV畫面或正射影像裡認出可疑線索，YouTube有官方章節標記，列了近20種線索，包含0:37反光或顏色特殊的物體、1:00煙與火、1:35折斷的樹枝、2:44新翻動的裸土、3:45水面痕跡、5:21scavengers（食腐動物聚集，可能代表附近有遺體）、6:32容易誤判的假線索、7:50到8:18兩種地面痕跡（螺旋狀與塗抹狀）、10:45因無人機移動造成的動態模糊、11:57怎麼從正射影像裡找線索。片子觀看數只有655，是CAP各州分會小頻道官方任務教材的通例，人少但內容系統化，直接對應本單元的目標辨識主題。"
+      },
+      "drills": [
+        {
+          "name": "座標的正確唸法與回報語速",
+          "en": "How to say GPS coordinates on the radio",
+          "kind": "lecture",
+          "target": "座標要唸到度分秒才夠精確、方向要唸清楚、語速要放慢，以及為什麼平常就要練習唸法",
+          "dose": "看完後找一組隨機座標，計時自己唸一遍，確認語速夠慢、方向沒漏講、聽的人能一次記下來",
+          "title": "How to Say GPS Coordinates on VHF Radio on Your Boat",
+          "channel": "Boat Buyer's Secret Weapon w/ Captain Matt",
+          "url": "https://www.youtube.com/watch?v=oz4GqQeGTsg",
+          "duration": "4:05",
+          "why": "Boat Buyer's Secret Weapon頻道，2023年10月5日上架，片長4分5秒，觀看數28,191。英文片，無中文字幕，以下為繁中導讀，依英文字幕整理。內容是船主Captain Matt講緊急狀況下怎麼在VHF無線電上正確唸出GPS座標：先講清楚是Mayday、Pan Pan還是一般安全通報等級，座標要唸到度分秒才夠精確，連同南北東西方向一起講清楚，語速要放慢、一個字一個字唸，而且平常就要練習過，不要等到真正緊急、慌張的時候才臨場現想怎麼唸。全片沒有YouTube章節標記，場景是船上，語境是海上遇險通報，但座標唸法本身跟空中對地面隊回報座標是同一套原則。"
+        },
+        {
+          "name": "拍出能當證據的空拍照片",
+          "en": "CAP Task O-5003: Image Composition for Evidence",
+          "kind": "lecture",
+          "target": "焦點抓法、三分法構圖、框架完整度、什麼時候該用變焦拉近，拍出能直接當證據用的畫面",
+          "dose": "看完後找一張自己拍過的空拍照片，對照焦點、構圖、框架三個項目檢查一次，想清楚如果現在要當證據交出去，夠不夠清楚",
+          "title": "Task O-5003: Discuss Consideration Variables to Image Composition & Compose an Image",
+          "channel": "Arizona Wing Civil Air Patrol",
+          "url": "https://www.youtube.com/watch?v=md5bEmD6_Ts",
+          "duration": "12:49",
+          "why": "Arizona Wing Civil Air Patrol頻道，2020年7月4日上架，片長12分49秒，觀看數771。英文片，無中文字幕，以下為繁中導讀。這是CAP任務編號O-5003的官方任務教材，教怎麼拍出一張能當證據用的空拍照片，YouTube有官方章節標記：0:47講怎麼抓畫面的焦點（focal point），2:18講三分法（rule of thirds）怎麼幫助構圖，4:41講框架（framing）要注意把目標完整放進畫面，6:46講什麼時候該用變焦（zoom）拉近細節，8:34講飛在有人機空域附近要留意的風險（aircraft intrusion）。片子觀看數只有771，同樣是CAP官方任務教材的通例，但直接對應本單元照片證據怎麼拍的主題。"
+        }
+      ]
+    }
+  ]
+}

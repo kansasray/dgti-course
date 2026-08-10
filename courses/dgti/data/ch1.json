@@ -1,0 +1,72 @@
+{
+  "chapter": "CH1",
+  "title": "任務規劃與簡報",
+  "units": [
+    {
+      "id": "ch1-u1",
+      "name": "從情報到行動方案",
+      "type": "planning",
+      "assessment": "給一個假想的搜救情境(例如某座山區傳出求救訊號但確切位置不明),能不能在十分鐘內寫出已知情報清單、提出至少兩個可行的行動方案並說明選哪個、為什麼,再指派清楚誰操作無人機、誰走地面搜索、誰負責通訊聯絡與後方回報。",
+      "lesson": {
+        "title": "How Hard is Military Planning? - The Military Decision Making Process",
+        "channel": "Life is a Special Operation",
+        "url": "https://www.youtube.com/watch?v=z6-vQI--EJk",
+        "duration": "22:29",
+        "why": "美軍「軍事決策流程」(MDMP)完整走過一次情報變成行動方案的路徑:0:00先看整體八步驟總覽,2:09進入任務分析整理已知情報,2:33提出多個行動方案(COA),2:44逐一比較優劣,2:54拍定其中一案再進入命令撰寫。原片語境是營級以上參謀作業,規模遠大於搜救小組,語域轉譯提醒:把「參謀」代換成「小組成員」、「敵情」代換成「災情與環境威脅」,只取「情報到方案到比較到拍板」這條主線即可,不必照搬整套流程。頻道 Life is a Special Operation,2023年10月27日上架。"
+      },
+      "drills": [
+        {
+          "name": "部隊領導程序總覽",
+          "en": "Troop Leading Procedures (TLP)",
+          "kind": "lecture",
+          "target": "從接獲任務到出發前,小單位需要照順序做完哪些動作",
+          "dose": "看一次,寫下自己小組現在出勤前的流程裡少了哪一步",
+          "title": "8 Troop Leading Procedures",
+          "channel": "7thNCOA",
+          "url": "https://www.youtube.com/watch?v=E3ZYhpvqmHo",
+          "duration": "4:43",
+          "why": "美國陸軍第七士官學校(7th NCO Academy)官方頻道出品,把「部隊領導程序」(TLP)濃縮成一支不到五分鐘的總覽。0:25進入第一步「接獲任務」,0:49接著發出「警告令」讓組員提早準備,1:59講到第四步「開始必要移動」。這是排、班等小單位指揮官從接到任務到出發前的完整動作清單,規模與無人機加地面隊的搜救小組相近,可以直接借用「先讓大家知道要出動、再補細節」的順序。原語境談的是接戰任務,語域轉譯提醒:對應到搜救,「接獲任務」就是接到報案或派遣通知,「警告令」就是先通知小組待命集合。2013年3月20日上架。"
+        },
+        {
+          "name": "任務區分怎麼寫",
+          "en": "Task Organization Development",
+          "kind": "lecture",
+          "target": "分工欄位要寫清楚指揮關係,不是只列名字對應任務",
+          "dose": "看到5:39之後的舉例段落,套用到自己小組的裝備與專長分配",
+          "title": "Operations Order (OPORD) Production and Products: Task Organization Development",
+          "channel": "Army Flashcards",
+          "url": "https://www.youtube.com/watch?v=Yz4UEzFUcOU",
+          "duration": "11:17",
+          "why": "講解任務命令裡「任務區分」(Task Organization)這一段怎麼寫,也就是決定誰做什麼、誰歸誰指揮。2:18進入命名慣例,3:55講到怎麼標出主要行動與支援行動,5:39之後用實際武器系統當例子分配任務。原語境是步兵連排編組武器系統,語域轉譯提醒:搜救小組可以把「決定性行動與支援行動」換成「誰飛無人機、誰走地面、誰守通訊」,把「武器系統」換成「裝備與專長」,抓的是分工要寫清楚指揮關係這個邏輯,不是武器編組本身。頻道 Army Flashcards,2019年11月12日上架。"
+        }
+      ]
+    },
+    {
+      "id": "ch1-u2",
+      "name": "任務簡報格式",
+      "type": "planning",
+      "assessment": "拿到一份包含狀況、任務、執行、後勤、指管通信五個部分的簡報架構,能不能在不看稿的情況下,用五段結構口頭向組員講一次假想的搜救任務,講完後請一位組員用自己的話覆述一次分工與集合時間地點,確認雙方理解一致,這個覆述動作就是回報簡報(back brief)。",
+      "lesson": {
+        "title": "OPORD (OSMEAC) - 5 Paragraph Order for Marine Corps OCS",
+        "channel": "Officer Candidate",
+        "url": "https://www.youtube.com/watch?v=9b5ISov2aYs",
+        "duration": "12:45",
+        "why": "美國海軍陸戰隊軍官候補學校(OCS)教材,完整示範五段式簡報(SMEAC/OSMEAC)怎麼講。0:47進入五段結構總覽,1:07先講方向定位(ORIENTATION),2:07到6:37是狀況(SITUATION)這一段,6:50起用一個假想的救援飛行員任務示範任務(MISSION)段怎麼寫,11:26進入後勤(ADMINISTRATION & LOGISTICS),12:01收在指管通信(COMMAND & SIGNAL)。原語境是陸戰隊攻擊任務簡報,語域轉譯提醒:「敵情與地形」換成「災情與環境威脅」,「攻擊目標」換成「搜索目標」,五段結構(狀況、任務、執行、後勤、指管通信)本身可以整套搬到搜救簡報,不需要另外發明格式。頻道 Officer Candidate,2017年6月9日上架。"
+      },
+      "drills": [
+        {
+          "name": "回報簡報(Back Brief)",
+          "en": "Back Brief",
+          "kind": "lecture",
+          "target": "簡報結束後怎麼確認組員真的聽懂,不是講完就結束",
+          "dose": "下次簡報結束後,實際找一位組員覆述一次分工與集合時間地點",
+          "title": "What is a BACK BRIEF? Learn how to prevent communication errors.",
+          "channel": "Life is a Special Operation",
+          "url": "https://www.youtube.com/watch?v=NAIyN03cSIk",
+          "duration": "5:28",
+          "why": "講「回報簡報」(back brief)是什麼,也就是接令的人講一次自己聽到的任務,讓下令的人確認有沒有理解錯。0:58講定義,1:56用軍事情境示範,3:10換成企業情境,3:53再換成家庭情境,說明這個技巧不限軍事場合。搜救任務簡報結束後,讓小組成員各自用自己的話覆述一次分工與集合時間點,就是這裡講的回報簡報,能在出發前抓到「聽錯集合地點」這類錯誤。頻道 Life is a Special Operation,2023年4月8日上架。"
+        }
+      ]
+    }
+  ]
+}
