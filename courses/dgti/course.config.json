@@ -96,7 +96,9 @@
     "openExternal": "在 YouTube 開啟",
     "emptyTitle": "沒有符合的內容",
     "emptyHint": "換個關鍵字,或把篩選條件清掉。",
-    "filterAllLabel": "全部"
+    "filterAllLabel": "全部",
+    "discussLabel": "討論",
+    "discussNote": "留言會同步到這門課 GitHub repo 的 Discussions,需要 GitHub 帳號才能發言。每支影片各有一串。"
   },
   "kinds": [
     {
@@ -222,6 +224,18 @@
   "footer": {
     "disclaimer": "**本課程講的是任務流程與協同方法,不能取代實地演練與正式搜救訓練。**實際搜救行動請在所屬單位的指揮體系與現行程序下進行。影片版權屬各原始 YouTube 頻道,本站只做策展與導讀。",
     "credits": "教學影片策展自 YouTube 公開內容,版權屬各原始頻道所有。**前置課程**:「ATAK 防災地圖」 atak-course.pages.dev(圖上指管)、「Meshtastic 離網通訊」 meshtastic-course.pages.dev(通訊層)、「無人機之路」 drone-course.pages.dev(飛行與考證)。本課是把它們接起來的協同層。"
+  },
+  "discussions": {
+    "provider": "giscus",
+    "repo": "kansasray/dgti-course",
+    "repoId": "R_kgDOTztV7A",
+    "category": "Q&A",
+    "categoryId": "DIC_kwDOTztV7M4DDCEO",
+    "mapping": "specific",
+    "termPrefix": "dgti",
+    "lang": "zh-TW",
+    "reactions": true,
+    "inputPosition": "top"
   },
   "llms": {
     "summary": "[[course]] 是一門策展自 YouTube 公開影片的空地協同課,三章涵蓋任務規劃、空中搜索與情報、地面協同整合,共 [[durationHours]] 小時 [[durationMinutes]] 分。搜救情境為主軸,美國民航巡邏隊任務課程為骨幹,導讀為繁體中文。",
